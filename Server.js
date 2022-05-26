@@ -31,7 +31,7 @@ app.post('/resetpassword', resetpassword)
 //Change password
 app.post('/changepassword', changepassword)
 
-app.listen(PORT, () => console.log(`App is running in ${PORT}`))
+app.listen(PORT, () => console.log(`App is running in ${PORT} 🎄`))
 app.get('/', function (request, response)
  { 
     response.send('Hello World ✨🎉✨')
